@@ -13,7 +13,7 @@
 
 ## [cite_start]🔗 Links de Entrega [cite: 53, 62]
 * 🌐 **GitHub Pages:** [https://vitorcustodio-droid.github.io/vitor-portfolio/]
-* 💼 **LinkedIn:** [COLE O LINK DO SEU PERFIL NOVO AQUI]
+* 💼 **LinkedIn:** https://www.linkedin.com/in/vítor-calixto-27914431a?utm_source=share_via&utm_content=profile&utm_medium=member_ios
 * 📺 **Vídeo de Apresentação:** [COLE O LINK DO SEU YOUTUBE AQUI]
 
 ## [cite_start]🛠️ Ferramentas Utilizadas [cite: 15]

@@ -1,33 +1,155 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Portfólio | Vitor Custódio Calixto</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 850px; margin: 0 auto; padding: 40px; background-color: #f8f9fa; color: #212529; }
-        .card { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 8px solid #007bff; }
-        h1 { color: #007bff; margin-bottom: 5px; font-size: 2.5em; }
-        .subtitle { font-size: 1.3em; color: #6c757d; margin-bottom: 30px; border-bottom: 1px solid #dee2e6; padding-bottom: 10px; }
-        .about-text { font-size: 1.15em; color: #495057; background: #f1f8ff; padding: 25px; border-radius: 10px; line-height: 1.8; }
-        h2 { color: #343a40; margin-top: 40px; font-size: 1.5em; }
-        .footer { margin-top: 40px; font-size: 0.9em; color: #adb5bd; text-align: center; }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <h1>Vitor Custódio Calixto</h1>
-        <p class="subtitle">Estudante de Inteligência Artificial - CEUB</p>
-        
-        <p class="about-text">
-            Estudante de Inteligência Artificial apaixonado por transformar desafios comerciais em soluções tecnológicas. Atualmente utilizo minha base de conhecimento no varejo atacadista para criar automações e apps inteligentes, buscando sempre a inovação prática no desenvolvimento de software.
-        </p>
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        <h2>Objetivo do Portfólio</h2>
-        <p>Este repositório armazena meus projetos acadêmicos e pessoais, focando em boas práticas de versionamento, organização de código e documentação profissional.</p>
-        
-        <div class="footer">
-            Versão 1.0 - Projeto de Entrega Intermediária - 2026
-        </div>
-    </div>
-</body>
-</html>
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    background-color: #0f172a; /* Fundo escuro moderno */
+    color: #e2e8f0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Card Principal */
+.card {
+    background: #1e293b;
+    max-width: 850px;
+    width: 100%;
+    padding: 45px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    border-top: 8px solid #3b82f6; /* Azul moderno */
+}
+
+/* Cabeçalho */
+h1 {
+    color: #3b82f6;
+    font-size: 2.8em;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #94a3b8;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 15px;
+}
+
+/* Seção Sobre Mim */
+.about-text {
+    font-size: 1.1em;
+    color: #cbd5e1;
+    background: #1e293b;
+    border-left: 4px solid #3b82f6;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 0 12px 12px 0;
+    background-color: rgba(59, 130, 246, 0.05);
+}
+
+h2 {
+    color: #f8fafc;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Grid de Habilidades */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.skill-tag {
+    background: #334155;
+    color: #3b82f6;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+/* Seção de Projetos (Vitrine) */
+.projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    .projects-list { grid-template-columns: 1fr; }
+}
+
+.project-item {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    border-color: #3b82f6;
+}
+
+.project-item h3 {
+    color: #f8fafc;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+/* Links e Botões de Contato */
+.contact-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background-color: #334155;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background-color: #475569;
+}
+
+.btn-whatsapp {
+    background-color: #22c55e;
+}
+
+.btn-whatsapp:hover {
+    background-color: #16a34a;
+}
+
+/* Rodapé */
+.footer {
+    margin-top: 50px;
+    font-size: 0.85em;
+    color: #64748b;
+    text-align: center;
+    border-top: 1px solid #334155;
+    padding-top: 20px;
+}

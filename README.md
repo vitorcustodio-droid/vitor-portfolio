@@ -7,7 +7,8 @@ Este repositório foi desenvolvido para a **Entrega Intermediária** do desafio 
 * **Foco:** Automação e Desenvolvimento de Aplicativos.
 * **Experiência:** Setor comercial (Atacadão Dia a Dia) - desenvolvendo visão estratégica de compra e venda.
 
-## 📂 Organização do Repositório */projetos-academicos**: Trabalhos e pesquisas realizados no CEUB.**/projetos-pessoais**: Estudos de automação e códigos próprios
+## 📂 Organização do Repositório 
+*/projetos-academicos**: Trabalhos e pesquisas realizados no CEUB.**/projetos-pessoais**: Estudos de automação e códigos próprios
 
 ## 🔗 Links de Entrega 
 * 🌐 **GitHub Pages:** [https://vitorcustodio-droid.github.io/vitor-portfolio/]
